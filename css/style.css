@@ -253,7 +253,7 @@ body{
     padding: 8rem 0;
     height: 75vh;
     background-image: linear-gradient(to right bottom, var(--light-color),
-    var(--dark-color)), url("../img/pexels-philippe-donn-1169754.jpg");
+    var(--dark-color)), url("../img/pexels-john-petalcurin-4317157.jpg");
     background-size: cover;
     background-position: bottom;
     transform: skewY(-7deg);
@@ -284,5 +284,8 @@ body{
 }
 
 .feature-box:hover{
-    transform: translateY(-1.5rem) scale(1.03);
+    outline: 1.5rem solid var(--medium-color);
+    transform: scale(1.05) translate(-0.5rem);
+    z-index: 20;
 }
+
